@@ -15,6 +15,7 @@ namespace DummyAPI.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+        string myPwd = "DummyPwd";
             _logger = logger;
         }
 
